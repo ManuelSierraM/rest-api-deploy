@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
 /* eslint-disable semi */
-const express = require("express"); // require -> commonJS
+const express = require("express");
 const crypto = require("node:crypto");
 const cors = require("cors");
 const movies = require("./movies.json");
