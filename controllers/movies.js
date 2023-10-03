@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
 /* eslint-disable semi */
-import { MovieModel } from "../models/movie.js";
+import { MovieModel } from "../models/local_file_system/movie.js";
 // import { MovieModel } from '../models/database/movie.js'
 import { validateMovie, validatePartialMovie } from "../schemas/movies.js";
 

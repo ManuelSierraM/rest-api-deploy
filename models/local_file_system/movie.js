@@ -1,7 +1,7 @@
 /* eslint-disable quotes */
 /* eslint-disable semi */
 import { randomUUID } from "node:crypto";
-import { readJSON } from "../utils.js";
+import { readJSON } from "../../utils.js";
 
 const movies = readJSON("./movies.json");
 
